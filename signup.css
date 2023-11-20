@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-image: url(./images/background\ image.1jpeg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+#first{
+    color: red;
+}
+
+#first::placeholder{
+    color: orange;
+}
+
+#second{
+    color: yellow;
+}
+
+#second::placeholder{
+    color: blue;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.669);
+    width: 30%;
+    padding: 60px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form h2{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+form #fir{
+    display: inline-block;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    
+}
+
+form #sec{
+    display: inline-block;
+}
+
+form #ema{
+    display: inline-block;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+form #mob{
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+form #gender{
+    padding-bottom: 30px;
+}
+
+form #c{
+    display: inline-block;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+form #d{
+    display: inline-block;
+}
+form #sign{
+    display: inline-block;
+    padding-right: 200px;
+}
+form #up{
+    display: inline-block;
+    padding-top: 30px;
+    width: 10%;
+}
+button{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+form .fa-lock{
+    position: absolute;
+    top: 120%;
+    left: 47%;
+
+}
+form .fa-unlock{
+    position: absolute;
+    top: 134%;
+    left: 47%;
+}
